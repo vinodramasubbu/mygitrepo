@@ -12,14 +12,10 @@ pool:
 steps:
 - script: echo Hello, world 1 !
   displayName: 'Run a one-line script'
-  condition: 
 
-steps:
 - script: echo Hello, world 2 !
   displayName: 'Run a one-line script'
-  artifact: 
 
-steps:
 - script: echo Hello, world 3!
   displayName: 'Run a one-line script'
 
